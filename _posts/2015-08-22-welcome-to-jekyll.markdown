@@ -9,7 +9,10 @@ published: true
 
 
 
+
 Wow 2.0-- [prose.io](www.prose.io "Prose is amazing")
+
+#Test 123
 
 Some lessons:
 1. Commiting and publishing is not instantaneous-- it takes a bit of time

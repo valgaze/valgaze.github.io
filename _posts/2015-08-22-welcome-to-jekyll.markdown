@@ -9,6 +9,7 @@ published: true
 
 
 
+
 #Test 123
 
 ###Test 1234
@@ -22,8 +23,15 @@ Some lessons:
 
 
 Let's try some bullets:
-* Hi 123
-* Hi 12345678910
+- These are bullets1
+- These are bullets2
+- These are bullets3
+
+Here's some javascript:
+{% highlight javascript %}
+0.1 + 0.2 === 0.3; //SHOCKINGLY returns false!!
+{% endhighlight %}
+
 __testing__
 
 This should be *italics* This is 

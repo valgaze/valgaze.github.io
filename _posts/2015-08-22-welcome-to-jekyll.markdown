@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Welcome to Jekyll!"
-date: 
-  "Sat Aug 29 2015 09:47:02 GMT-0700 (PDT)": null
+date: "Sat Aug 29 2015 09:47:02 GMT-0700 (PDT)"
 categories: jekyll update
 published: true
 ---
+
 
 
 

@@ -9,17 +9,21 @@ published: true
 
 
 
+#Test 123
+
+###Test 1234
 
 Wow 2.0-- [prose.io](www.prose.io "Prose is amazing")
 
-#Test 123
 
 Some lessons:
 1. Commiting and publishing is not instantaneous-- it takes a bit of time
 2. If ANY of the frontmatter (date, etc) on a post is busted, then EVERYTHING breaks
 
 
-
+Let's try some bullets:
+* Hi 123
+* Hi 12345678910
 __testing__
 
 This should be *italics* This is 

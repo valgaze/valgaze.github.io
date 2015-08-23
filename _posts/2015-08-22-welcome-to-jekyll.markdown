@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: My New title
 date: "Sat Aug 29 2015 09:47:02 GMT-0700 (PDT)"
 categories: jekyll update
 published: true
@@ -8,12 +8,7 @@ published: true
 
 
 
-
-
-
-
-Attempting ()ANOTHER!() **yet another** [NEW!] edit with [prose.io](http://prose.io)
-
+Wow-- [prose.io](www.prose.io "Prose is amazing")
 You’ll [test] find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

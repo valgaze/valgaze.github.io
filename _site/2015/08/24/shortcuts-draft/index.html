@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Shortcuts Draft</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Software Engineer">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/hc.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif] d-->
+
+  </head>
+  <body>
+    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
+    <div id = "wrapper">
+      <div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand">Victor Algaze</p>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+      <li><a href="/list">Blog</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/about">About</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand"><a href="/"><h1 class="brand">Victor Algaze</h1></a><h3>Software Engineer</h3></li>
+    <hr />
+    <li><a href="/list">Blog</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/about">About</a></li>
+    <hr />
+    <div id="social-wrapper">
+      <li> <a href="http://www.twitter.com/valgaze"><i class="fa fa-twitter-square"></i> @twitter</a></li>
+      <li> <a href="http://www.linkedin.com/in/victoralgaze"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
+      <li> <a href="http://www.facebook.com/victoralgaze"><i class="fa fa-facebook-square"></i> facebook</a></li>
+      <li> <a href="http://www.github.com/valgaze"><i class="fa fa-github-square"></i> github</a> </li>
+    </div>
+  </ul>
+</div>
+
+      <div class="container">
+        <div id="article">
+  <div class="article-title">Shortcuts Draft</div>
+  <p class="meta">
+    <small>
+      &nbsp;<i class="fa fa-calendar-o"></i> 24 Aug 2015
+    </small>
+  </p> <hr/>
+  <div class="post">
+    <h1>Spend Two Minutes to Supercharge Your Sublime Text</h1>
+
+<p>InXX an application as rich as Sublime Text if you&#39;re not careful it&#39;s easy to find that you&#39;ve spent far more time attempting to master all the tricks and shortcuts than you could ever hope to save from implementing them</p>
+
+<p>Rather than try to learn everything at once, see if you can incorporate these quick-and-dirty shortcuts in your workflow:</p>
+
+<h3>1) Quickly Swap lines</h3>
+
+<p>This shortcut is a bit tricky but practice a few times to build up your muscle memory and before you know it you&#39;ll probably never again need to cut &amp; paste to swap lines.</p>
+
+<p>All you need to do is place your cursor on the line you want to swap (you don&#39;t even need to highlight) and then press</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span>CMD<span class="o">}</span> + <span class="o">{</span>CTRL<span class="o">}</span>  + <span class="o">{</span>up_arrow/down_arrow<span class="o">}</span></code></pre></div>
+
+<p>That&#39;ll in one quick command turn this...</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myRef</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">myRef</span> <span class="o">=</span> <span class="s2">&quot;Hope we declared this in the correct spot&quot;</span><span class="p">;</span></code></pre></div>
+
+<p>Into THIS:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myRef</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">myRef</span> <span class="o">=</span> <span class="s2">&quot;Hope we declared this in the correct spot&quot;</span><span class="p">;</span></code></pre></div>
+
+<h3>2) Comment multiple lines at once</h3>
+
+<p>This shortcut is a life-saver if you want to very quickly comment out multiple lines of text. </p>
+
+<p>PROCEDURE: Select multiple lines of text (which you can do by holding down SHIFT and moving the arrow keys and then press:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span>CMD<span class="o">}</span> + /</code></pre></div>
+
+<p>That&#39;ll turn this...</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Did this output correctly?&quot;</span><span class="p">,</span> <span class="nx">myObj</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Let&#39;s see if we set the property&quot;</span><span class="p">,</span> <span class="nx">myObj</span><span class="p">.</span><span class="nx">prop</span><span class="p">);</span></code></pre></div>
+
+<p>Into THIS:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">//console.log(&quot;Did this output correctly?&quot;, myObj);</span>
+<span class="c1">//console.log(&quot;Let&#39;s see if we set the property&quot;, myObj.prop);</span></code></pre></div>
+
+<p>NOTE: This shortcut is context-aware so if you&#39;re editing an HTML file all the selected lines will be properly wrapped in &lt;!--  --&gt; comment lines</p>
+
+<h3>3) The Elusive Multicursor</h3>
+
+<p>If you&#39;ve ever been mystified at how a colleague presenter is able to quickly edit multiple lines at once, this trick will show you how to do it too!</p>
+
+<p>Imagine we have a bunch of javascript variables which we want to mark as private by appending an underscore character. </p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">secretProperty1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">secretProperty2</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">secretProperty3</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">secretProperty4</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span></code></pre></div>
+
+<p>The laborious knucklehead approach is to go one line at a time. Instead simply highlight the first character and press</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span>CMD<span class="o">}</span> + D</code></pre></div>
+
+<p>Keep pressing CMD-D until you see multiple cursors and then just type away to make edits to multiple lines at once</p>
+
+<p>As fast as you can type you&#39;ll be able to add the underscore:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">_secretProperty1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">_secretProperty2</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">_secretProperty3</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">_secretProperty4</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span></code></pre></div>
+
+<p>Two notes: </p>
+
+<ul>
+<li><p>If you have a mouse with a scrollwheel you can achieve a similiar multiple lines by PRESSING the scroll wheel and dragging down to create one big cursor.</p></li>
+<li><p>[]The lines definitely do not need to be neatly arranged-- just select whatever character or character grouping and everytime you press CMD-D you&#39;ll get a new cursor!</p></li>
+</ul>
+
+<p>Give those commands a shot and before you know it you&#39;ll be zipping around Sublime Text like a pro.</p>
+
+  </div>
+</div>
+<a href="https://twitter.com/share" class="twitter-share-button " data-size="small" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<ul class="pager">
+
+
+</ul>
+
+<div id="disqus_thread">
+
+  <script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = ''; // required: replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+
+  <a href="http://disqus.com" class="dsq-brlink">
+    comments powered by <span class="logo-disqus">Disqus</span>
+  </a>
+
+</div>
+
+
+      </div>
+      <div class="container">
+  <footer>
+    <p class="text-muted credit">
+    </p>
+  </footer>
+</div>
+
+    </div>
+    <!-- Bootstrap core JavaScript-->
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/hc.js"></script>
+
+  </body>
+</html>

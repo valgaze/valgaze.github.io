@@ -1,4 +1,5 @@
 ---
+title: Two Minutes to Supercharge Your Sublime Text 
 ---
 # Spend Two Minutes to Supercharge Your Sublime Text 
 

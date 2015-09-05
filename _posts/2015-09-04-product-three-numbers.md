@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Algo Puzzler: highest product of 3 numbers

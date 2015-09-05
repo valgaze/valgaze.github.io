@@ -23,10 +23,8 @@ var myRef = "Hope we declared this in the correct spot";
 
 
 Into THIS:
-{% highlight javascript %}
-console.log(myRef);
-var myRef = "Hope we declared this in the correct spot";
-{% endhighlight %}
+
+![Line swap!]({{ site.url }}/images/sublimepost/ex1.gif)
 
 ###2) Comment multiple lines at once
 This shortcut is a life-saver if you want to very quickly comment out multiple lines of text. 
@@ -44,10 +42,8 @@ console.log("Let's see if we set the property", myObj.prop);
 {% endhighlight %}
 
 Into THIS:
-{% highlight javascript %}
-//console.log("Did this output correctly?", myObj);
-//console.log("Let's see if we set the property", myObj.prop);
-{% endhighlight %}
+![Comment out!]({{ site.url }}/images/sublimepost/ex2.gif)
+
 
 NOTE: This shortcut is context-aware so if you're editing an HTML file all the selected lines will be properly wrapped in <!--  --> comment lines
 
@@ -74,18 +70,14 @@ Keep pressing CMD-D until you see multiple cursors and then just type away to ma
 
 As fast as you can type you'll be able to add the underscore:
 
-{% highlight javascript %}
-var _secretProperty1 = 0;
-var _secretProperty2 = 1;
-var _secretProperty3 = 2;
-var _secretProperty4 = 3;
-{% endhighlight %}
+![Multicursors!]({{ site.url }}/images/sublimepost/ex3.gif)
+
 
 Two notes: 
 
 * If you have a mouse with a scrollwheel you can achieve a similiar multiple lines by PRESSING the scroll wheel and dragging down to create one big cursor.
 
-* []The lines definitely do not need to be neatly arranged-- just select whatever character or character grouping and everytime you press CMD-D you'll get a new cursor!
+* The lines definitely do not need to be neatly arranged-- just select whatever character or character grouping and everytime you press CMD-D you'll get a new cursor!
 
 Give those commands a shot and before you know it you'll be zipping around Sublime Text like a pro.
 

@@ -1,9 +1,11 @@
 ---
-title: Two Minutes to Supercharge Your Sublime Text 
+title: Two Minutes to Supercharge Your Sublime Text
+published: true
 ---
+
 # Spend Two Minutes to Supercharge Your Sublime Text 
 
-InXX an application as rich as Sublime Text if you're not careful it's easy to find that you've spent far more time attempting to master all the tricks and shortcuts than you could ever hope to save from implementing them
+In an application as rich as Sublime Text if you're not careful it's easy to find that you've spent far more time attempting to master all the tricks and shortcuts than you could ever hope to save from implementing them
 
 Rather than try to learn everything at once, see if you can incorporate these quick-and-dirty shortcuts in your workflow:
 
@@ -80,6 +82,3 @@ Two notes:
 * The lines definitely do not need to be neatly arranged-- just select whatever character or character grouping and everytime you press CMD-D you'll get a new cursor!
 
 Give those commands a shot and before you know it you'll be zipping around Sublime Text like a pro.
-
-
-

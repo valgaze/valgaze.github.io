@@ -46,6 +46,7 @@ console.log("Let's see if we set the property", myObj.prop);
 
 Into THIS:
 
+
 ![Comment out!]({{ site.url }}/images/sublimepost/ex2.gif)
 
 

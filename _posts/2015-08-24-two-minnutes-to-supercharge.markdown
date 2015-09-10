@@ -3,6 +3,7 @@ title: Two Minutes to Supercharge Your Sublime Text
 published: true
 ---
 
+
 # Spend Two Minutes to Supercharge Your Sublime Text 
 
 In an application as rich as Sublime Text if you're not careful it's easy to find that you've spent far more time attempting to master all the tricks and shortcuts than you could ever hope to save from implementing them
@@ -44,6 +45,7 @@ console.log("Let's see if we set the property", myObj.prop);
 {% endhighlight %}
 
 Into THIS:
+
 ![Comment out!]({{ site.url }}/images/sublimepost/ex2.gif)
 
 

@@ -5,16 +5,16 @@ author: victor
 ---
 
 
+
 **You should read this if:** You have built a nodejs application as a side/educational project and want to deploy it in the wild. Hopefully you’ve never touched AWS or dealt with deployment before and are curious about it.
 
-**You should NOT read this (and instead skip to the resources section) if:** You have a mission-critical nodejs application and have important security or scalability concerns on your mind. This guide is not for you-- skip to the resources section at the bottom helpful reading materials.
+**You should NOT read this (and instead skip to the resources section) if:** You have a mission-critical nodejs application and have important security or scalability concerns on your mind. This guide is not for you-- scroll on down to the resources section at the bottom for some helpful reading materials.
 
 With that out of the way, let's briefly discuss the current state of play: These days if you have a Nodejs application and want to get it deployed, you have lots of choices--Heroku, Nodejitsu, Digital Ocean, Appfrog, Azure, and a whole host of others. Different providers compete on price, functionality, workflows, ease-of-use, security, control, and many other factors. For someone just looking to deploy their app to a reliable and competent provider, the sheer volume of choices can be a bit overwhelming. 
 
-To help simplify things a bit, this is the first in a series of step-by-step guides of exactly how to deploy your site to nodejs to various providers. These will be bare-boned without any fancy configurations. 
+To help simplify things a bit, this is a step-by-step guide of exactly how to deploy your site to nodejs on to AWS as a 1st try. This deployment will be bare-boned without any fancy configuration.
 
 At the bottom of this post are a ton of links/resources on AWS and other sources for hosting your node app. Stay tuned for more!
-
 
 **Deploying a simple nodejs to AWS (no heroku/nodejitsu/etc 3rd-party organizations)**
 
@@ -53,6 +53,8 @@ Whew! That's a lot of clicking. What you've just done is certainly not the best 
 *   Master nodejs hosting list: <u>[https://github.com/joyent/<wbr>node/wiki/Node-Hosting](https://github.com/joyent/node/wiki/Node-Hosting)</u>
 
 * Node on Heroku: [https://adamhedge.azurewebsites.net/2015/09/09/really-deploying-your-node-server-on-heroku/](https://adamhedge.azurewebsites.net/2015/09/09/really-deploying-your-node-server-on-heroku/)
+
+* [AWS in Plain English](https://www.expeditedssl.com/aws-in-plain-english)
 
 *   [Comparison of providers](https://seroter.wordpress.com/2013/07/29/where-the-heck-do-i-host-my-node-js-app/)
 *   [AWS Deployment 101](http://docs.aws.amazon.com/gettingstarted/latest/deploy/overview.html)

@@ -8,7 +8,7 @@ author: victor
 
 **You should NOT read this (and instead skip the resources section) if:** You have a mission-critical nodejs application and have important security or scalability concerns on your mind. This guide is not for you-- skip to the resources section at the bottom helpful reading materials.
 
-With that out of the way, let's briefly discuss the current state of play: These days if you have a Nodejs application and want to get it deployed , you have lots of choices--Heroku, Nodejitsu, Digital Ocean, Appfrog, Azure, and a whole host of others. Different providers compete on price, functionality, workflows, ease-of-use, security, control, and many other factors. For someone just looking to deploy their app to a reliable and competent provider, the sheer volume of choices can be a bit overwhelming. 
+With that out of the way, let's briefly discuss the current state of play: These days if you have a Nodejs application and want to get it deployed, you have lots of choices--Heroku, Nodejitsu, Digital Ocean, Appfrog, Azure, and a whole host of others. Different providers compete on price, functionality, workflows, ease-of-use, security, control, and many other factors. For someone just looking to deploy their app to a reliable and competent provider, the sheer volume of choices can be a bit overwhelming. 
 
 To help simplify things a bit, this is the first in a series of step-by-step guides of exactly how to deploy your site to nodejs to various providers. These will be bare-boned without any fancy configurations. 
 
@@ -24,7 +24,7 @@ At the bottom of this post are a ton of links/resources on AWS and other sources
 
 4.  Click “Create New Application” (hard to see) top right corner
 5.  Enter a unique application name and click **NEXT**
-6.  On “New Environment” page click **CREAT**E WEB SERVER
+6.  On “New Environment” page click **CREATE WEB SERVER**
 7.  On “Permissions” modal popup box a profile should already be available, make sure the radio button next to it “checked” and click **NEXT**
 8.  Note: IAM stands for Identity and Access Management and is kind of like setting up a user who has permissions to mess around with your services
 9.  On "Environment Type" page select **Node.js** from the dropdown for "Predefined configuration" and click **NEXT**

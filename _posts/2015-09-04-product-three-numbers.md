@@ -1,6 +1,7 @@
 ---
 published: true
 title: Highest Product of 3 Numbers
+author: victor
 ---
 
 Algo Puzzler: highest product of 3 numbers

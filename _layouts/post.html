@@ -1,13 +1,23 @@
 ---
 layout: default
+author: victor
 ---
+{% assign author = site.authors[page.author] %}
+
+
+{{ author.display_name}}
 <div id="article">
   <div class="article-title">{{ page.title }}</div>
   <p class="meta">
     <small>
       &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
     </small>
-  </p> <hr/>
+  </p>
+  <div class="meta">
+    <span class="author">By {{ author.display_name }}</span>
+  </div>
+
+   <hr/>
   <div class="post">
     {{ content }}
   </div>

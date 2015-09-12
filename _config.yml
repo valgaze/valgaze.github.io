@@ -17,6 +17,15 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 
+authors:
+  victor:
+    display_name: Victor Algaze
+    gravatar: b5ccb62439c9abfa1570d738946a3636
+    email: valgaze@gmail.com
+
+
+
+
 defaults:
   - scope:
       path: ""

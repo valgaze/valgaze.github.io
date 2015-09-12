@@ -1,6 +1,7 @@
 ---
 published: true
-title: Deploy Your Damn Nodejs App to Amazon Web Services
+title: Deploy Your Nodejs App to Amazon Web Services
+author: victor
 ---
 
 **You should read this if:** You have built a nodejs application as a side/educational project and want to deploy it in the wild. Hopefully you’ve never touched AWS or dealt with deployment before and are curious about it.

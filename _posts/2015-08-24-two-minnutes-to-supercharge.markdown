@@ -1,11 +1,7 @@
 ---
-title: Two Minutes to Supercharge Your Sublime Text
+title: Three Tricks to Supercharge Your Sublime Text
 published: true
 ---
-
-
-# Spend Two Minutes to Supercharge Your Sublime Text 
-
 In an application as rich as Sublime Text if you're not careful it's easy to find that you've spent far more time attempting to master all the tricks and shortcuts than you could ever hope to save from implementing them
 
 Rather than try to learn everything at once, see if you can incorporate these quick-and-dirty shortcuts in your workflow:

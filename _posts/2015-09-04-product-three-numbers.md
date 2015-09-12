@@ -111,6 +111,7 @@ var generator = function(){
 };
 
 var append = function(el, input){
+alert('fired');
   var ref = document.getElementById(el);
   ref.value = "[" + input + "]";
 };

@@ -4,9 +4,10 @@ title: Deploy Your Nodejs App to Amazon Web Services
 author: victor
 ---
 
+
 **You should read this if:** You have built a nodejs application as a side/educational project and want to deploy it in the wild. Hopefully you’ve never touched AWS or dealt with deployment before and are curious about it.
 
-**You should NOT read this (and instead skip the resources section) if:** You have a mission-critical nodejs application and have important security or scalability concerns on your mind. This guide is not for you-- skip to the resources section at the bottom helpful reading materials.
+**You should NOT read this (and instead skip to the resources section) if:** You have a mission-critical nodejs application and have important security or scalability concerns on your mind. This guide is not for you-- skip to the resources section at the bottom helpful reading materials.
 
 With that out of the way, let's briefly discuss the current state of play: These days if you have a Nodejs application and want to get it deployed, you have lots of choices--Heroku, Nodejitsu, Digital Ocean, Appfrog, Azure, and a whole host of others. Different providers compete on price, functionality, workflows, ease-of-use, security, control, and many other factors. For someone just looking to deploy their app to a reliable and competent provider, the sheer volume of choices can be a bit overwhelming. 
 
@@ -64,4 +65,3 @@ Tools
 URLs & Domain Names:
 
 *   [http://gregblogs.com/tlt-<wbr>associate-a-namecheap-domain-<wbr>with-an-amazon-ec2-instance/](http://gregblogs.com/tlt-associate-a-namecheap-domain-with-an-amazon-ec2-instance/)
-

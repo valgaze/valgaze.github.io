@@ -149,9 +149,6 @@ append("randomlist", generator());
     border-radius: 0;
   }
   #randomList{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	width: 100%;
   }
 

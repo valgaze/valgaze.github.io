@@ -7,6 +7,7 @@ author: victor
 
 
 
+
 Algo Puzzler: highest product of 3 numbers
 
 During a whiteboard session the other day I encountered a fun algorithm 101 puzzler. What makes it a great problem is that it starts off simple, then steadily increases in complexity with new complications and then comes full circle with an efficient and tidy solution at the end.
@@ -90,7 +91,7 @@ In summary, we went from simple to complex to confusing and finally to elegance-
 If you want to experiment with different lists, click the GENERATE button below or refresh the page and the box below will produce a new list of random numbers:
 
 <button id='generateBtn'>Generate</button>
-<span id="fakePre"><textarea rows="4" cols="25" id="randomlist"></textarea></span>
+<span id="fakePre"><textarea rows="4" cols="50" id="randomlist"></textarea></span>
 
 
 
@@ -120,7 +121,7 @@ document.getElementById("generateBtn").addEventListener("click", function(){
     append("randomlist", generator());
 });
 
-append("randomlist", "[1,2,3,4]");
+append("randomlist", generator());
 
 
 

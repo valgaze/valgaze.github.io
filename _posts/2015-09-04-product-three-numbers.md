@@ -91,7 +91,7 @@ In summary, we went from simple to complex to confusing and finally to elegance-
 If you want to experiment with different lists, click the GENERATE button below or refresh the page and the box below will produce a new list of random numbers:
 
 <button id='generateBtn'>Generate</button>
-<span id="fakePre"><textarea rows="4" cols="4" id="randomlist"></textarea></span>
+<span id="fakePre"><textarea rows="4" id="randomlist"></textarea></span>
 
 
 

@@ -6,6 +6,7 @@ author: victor
 
 
 
+
 Algo Puzzler: highest product of 3 numbers
 
 During a whiteboard session the other day I encountered a fun algorithm 101 puzzler. What makes it a great problem is that it starts off simple, then steadily increases in complexity with new complications and then comes full circle with an efficient and tidy solution at the end.
@@ -111,7 +112,6 @@ var generator = function(){
 };
 
 var append = function(el, input){
-alert('fired');
   var ref = document.getElementById(el);
   ref.value = "[" + input + "]";
 };

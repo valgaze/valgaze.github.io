@@ -4,10 +4,6 @@ title: Whiteboarding Data Structures
 author: victor
 date: 2015-09-16
 ---
-
-Communicating Complex Ideas Visually 
-
-
 At their best, diagrams can clearly articulate a core message or idea. At their worst, they might look something like this:
 
 ![img]({{ site.url }}/images/diagrams/paconsulting.jpg)

@@ -10,7 +10,7 @@ Communicating Complex Ideas Visually
 
 At their best, diagrams can clearly articulate a core message or idea. At their worst, they might look something like this:
 
-![img]({{ site.url }}/images/diagrams/paconsulting.JPG)
+![img]({{ site.url }}/images/diagrams/paconsulting.jpg)
 [credit: [http://msnbcmedia.msn.com/i/MSNBC/Components/Photo/2009/December/091202/091203-engel-big-9a.jpg](http://msnbcmedia.msn.com/i/MSNBC/Components/Photo/2009/December/091202/091203-engel-big-9a.jpg)]
 
 
@@ -18,7 +18,7 @@ Despite rebuttals from [some quarters](http://sdwise.com/2013/07/hey-new-york-ti
 
 A far more successful example of a diagram communicating an abstract idea comes from the House/Senate Joint Economic Committee which published vertigo-inducing chart detailing the many agencies responsible for implementing the Affordable Care Act:
 
-![img]({{ site.url }}/images/diagrams/healthcarechart.JPG)
+![img]({{ site.url }}/images/diagrams/healthcarechart.jpg)
 [credit: [http://www.jec.senate.gov/public/index.cfm/republicans/committeenews?ID=bb302d88-3d0d-4424-8e33-3c5d2578c2b0](http://www.jec.senate.gov/public/index.cfm/republicans/committeenews?ID=bb302d88-3d0d-4424-8e33-3c5d2578c2b0)]
 
 (There was a rebuttal by an angry graphic designer who thought he could spruce things up a bit and gave it a shot too: [https://www.flickr.com/photos/robertpalmer/3743826461](https://www.flickr.com/photos/robertpalmer/3743826461))

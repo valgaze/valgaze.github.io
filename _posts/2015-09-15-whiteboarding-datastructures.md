@@ -2,8 +2,9 @@
 published: true
 title: Whiteboarding Data Structures
 author: victor
-date: 2015-09-16
+date: {}
 ---
+
 At their best, diagrams can clearly articulate a core message or idea. At their worst, they might look something like this:
 
 ![img]({{ site.url }}/images/diagrams/paconsulting.jpg)
@@ -12,14 +13,7 @@ At their best, diagrams can clearly articulate a core message or idea. At their 
 
 Despite rebuttals from [some quarters](http://sdwise.com/2013/07/hey-new-york-times-a-causal-loop-diagram-is-not-a-powerpoint-fail/), this particular diagram appears to do more to confuse than to enligthen. General Stanley McChrystal allegedly remarked that  [“when we understand that slide, we’ll have won the war.”](http://www.nytimes.com/210/04/27/world/27powerpoint.html?_r=0)
 
-A far more successful example of a diagram communicating an abstract idea comes from the House/Senate Joint Economic Committee which published this vertigo-inducing chart detailing the many agencies responsible for implementing the Affordable Care Act:
-
-![img]({{ site.url }}/images/diagrams/healthcarechart.jpg)
-[credit: [http://www.jec.senate.gov/public/index.cfm/republicans/committeenews?ID=bb302d88-3d0d-4424-8e33-3c5d2578c2b0](http://www.jec.senate.gov/public/index.cfm/republicans/committeenews?ID=bb302d88-3d0d-4424-8e33-3c5d2578c2b0)]
-
-(There was a rebuttal by an angry graphic designer who felt the chart was misleading and decided to spruce things up a bit: [https://www.flickr.com/photos/robertpalmer/3743826461](https://www.flickr.com/photos/robertpalmer/3743826461))
-
-Whatever one’s politics or worldview, the lesson from these diagrams' missteps and successes is clear-- the amount of complexity in a diagram can trigger a visceral reaction in its audience. When used correctly, diagrams can be powerful shortcuts to communicate complex ideas. If you want to make a point about an abstract topic in a vivid way then you ought to use a (simple!) diagram. 
+The amount of complexity in a diagram can trigger a visceral reaction in its audience. When used correctly, diagrams can be powerful shortcuts to communicate complex ideas. If you want to make a point about an abstract topic in a vivid way then you ought to use a (simple!) diagram. 
 
 Nowhere is this more applicable than when software engineers are scribbling away at their whiteboards. In an age of fancy slide decks, drawing stripped-down diagrams on the decidedly low-tech whiteboard is a great approach to think through many technical challenges (not to mention tricky interview questions.) 
 
@@ -66,4 +60,3 @@ That is a good start for how to clearly communicate these abstract data structur
 Whiteboarding is a crucial skill in software engineering and the ability to explain your ideas visually and refer to common reference points like fundamental data structures will serve you well. Systematic whiteboarding will work to discipline your thinking and help you be a more productive engineer. 
 
 There's an old saying that smart carpenters should "measure twice, cut once." Perhaps software engineers should “whiteboard twice, code once.” If it works for people building with gimlets and wood then maybe it will also work for people building with keyboards and code. If you can save yourself loads of backtracking time with a few more minutes on the whiteboard, that is time well spent.
-

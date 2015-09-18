@@ -2,7 +2,8 @@
 published: true
 title: Whiteboarding Data Structures
 author: victor
-date: {}
+date: 2015-10-16
+
 ---
 
 At their best, diagrams can clearly articulate a core message or idea. At their worst, they might look something like this:

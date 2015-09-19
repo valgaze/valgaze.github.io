@@ -1,10 +1,10 @@
 ---
 published: true
-title: JavaScript Bind-- A Simple Guide for the Perplexed
+title: "JavaScript Bind-- A Simple Guide for the Perplexed"
 author: victor
-date: 2015-10-20
-
+date: {}
 ---
+
 
 ## Javascript bind: A guide for the perplexed
 
@@ -70,7 +70,20 @@ ref(); //logs "different message_2"
 
 {% endhighlight %}
 
-Bottom line: Bind returns a **reference** to a function that we can invoke at a later time. Call/apply are immediately invoked but bind needs to be explicitly invoked.
+Bind-- like call-- can also accept comma separated arguments. (You can pass in an array of arguments with some fancy footwork using apply, but at this moment that might do more to confuse than to educate.) But here's a brief example of using bind to obtain a reference to a function with set context and arguments.
+
+{% highlight javascript %}
+
+var addFunc = function (x,y){
+	return x + y;
+}
+
+var addTen = addFunc.bind(null, 10); //Function reference with x parameter bound to 10
+
+addTen(5); //15
+addTen(30); //40
+addTen(50); //60
+{% endhighlight %}
 
 
-
+**Bottom line:** Bind merely returns a *reference* to a function that we can invoke at a later time. Call/apply are immediately invoked but bind needs to be explicitly invoked. In addition to setting the context/this for the function's invocation you can also bind arguments as well.

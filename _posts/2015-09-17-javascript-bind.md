@@ -1,12 +1,9 @@
 ---
 published: true
-title: "JavaScript Bind-- A Simple Guide for the Perplexed"
+title: "JavaScript Bind-- A (Short) Guide for the Perplexed"
 author: victor
 date: 2015-09-20 
 ---
-
-
-## Javascript bind: A guide for the perplexed
 
 The .bind method in JavaScript can sometimes be a source of confusion. If you have never encountered it before, it seems to almost magically solve all sorts of context binding issues.
 

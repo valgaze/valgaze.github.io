@@ -2,7 +2,7 @@
 published: true
 title: "JavaScript Bind-- A Simple Guide for the Perplexed"
 author: victor
-date: {}
+date: 2015-09-20 
 ---
 
 

@@ -2,7 +2,7 @@
 published: true
 title: Whiteboarding Data Structures
 author: victor
-date: 2015-10-16
+date: 2015-09-16
 
 ---
 

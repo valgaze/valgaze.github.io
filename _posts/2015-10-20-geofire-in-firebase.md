@@ -131,7 +131,7 @@ geoQuery.updateCriteria({
 Those four ideas are a pretty good primer on the big ideas of GeoFire-- see below for some helpful readmes and examples of this killer library in action.
 
 
-#Resources:
+##Further Reading & Resources:
 * [https://github.com/firebase/geofire-js-- see bottom for documentation on listeners](https://github.com/firebase/geofire-js)
 * [https://geofire.firebaseapp.com/](https://geofire.firebaseapp.com/)
 * [https://www.firebase.com/docs/web/guide/retrieving-data.html#section-event-types](https://www.firebase.com/docs/web/guide/retrieving-data.html#section-event-types)

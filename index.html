@@ -1,39 +1,63 @@
----
-title: Victor Algaze
----
-{% include showcase.html %}
-{% include greeting.html %}
-
-{% if site.posts != empty %}
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-      {% endcapture %}
-    {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
-  {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/blog">View More...</a>
-  </ul>
+<div class="wrap">
+    <h1 id="message"></h1>
 </div>
-{% endif %}
+
+
+
+<style>
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.wrap > h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+</style>
+
+
+
+<script>
+
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+
+let defaults = {
+        url: 'http://bit.ly/2HhJK9V',
+        delay: 6000,
+        string: 'Extracting credentials from your team space, one moment...'
+    }
+
+let redirect = (url) => {
+    window.location = url;
+}
+
+// Querystrings
+    // usage: www.bongo.com/index.html?url=http://wwww.google.com&delay=1000&displayString=Thank
+    // URL
+    // Delay
+    // Custom string
+
+    let url = getUrlParameter('url') || defaults.url;
+    let delay = getUrlParameter('delay') || defaults.delay;
+    let string = getUrlParameter('string') || defaults.string;
+    let noredirect = getUrlParameter('noredirect') || false;
+
+    document.querySelector('#message').innerHTML = string;
+
+    setTimeout(() => {
+        if (!noredirect) {
+            redirect(url);
+        }
+    }, 2000);
+
+
+
+</script>

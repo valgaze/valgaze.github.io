@@ -1,64 +1,60 @@
-<div class="wrap">
-    <h1 id="message"></h1>
-</div>
+<script>			
+(function (d, m) {
+				var kommunicateSettings = {
+					"appId": "3dab53e6d2c5a860ebb8422859fb577de",
+					popupWidget: true,
+					automaticChatOpenOnNavigation: true,
 
+					//The following settings will disable the widget on page load
 
+					onInit: function () {
+						var iframe = parent.document.getElementById(
+							"kommunicate-widget-iframe"
+						);
+						iframe.classList.add("change-kommunicate-iframe-height");
+						Kommunicate.launchConversation();
+						Kommunicate.displayKommunicateWidget(true);
 
-<style>
-.wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-}
+						var iframeStyle = document.createElement("style");
+						var classSettings =
+							".change-kommunicate-iframe-height{height:100%!important;width:100%!important;right:0!important;bottom:0!important;max-height: 100%!important;}";
+						iframeStyle.type = "text/css";
+						iframeStyle.innerHTML = classSettings;
+						document.getElementsByTagName("head")[0].appendChild(iframeStyle);
+						var launcherIconStyle =
+							"@media(min-width: 510px){.mck-sidebox.fade.in,.mck-box .mck-box-sm{width:100%; height:100%;max-height:100%!important;border-radius:0px!important;}.mck-sidebox{right:0!important;bottom:0!important;}}";
+						Kommunicate.customizeWidgetCss(launcherIconStyle);
 
-.wrap > h1 {
-    font-size: 3em;
-    font-family: sans-serif;
-}
-</style>
+						var launcher = KommunicateGlobal.document.getElementById(
+							"mck-sidebox-launcher"
+						),
+							preChatPopup = KommunicateGlobal.document.querySelector(
+								"#chat-popup-widget-container .chat-popup-widget-text-wrapper"
+							),
+							closeButton = KommunicateGlobal.document.getElementById(
+								"km-chat-widget-close-button"
+							);
 
+						[launcher].forEach(function (element) {
+							element.addEventListener("click", function () {
+								iframe.classList.add("change-kommunicate-iframe-height");
+							});
+						});
 
+						closeButton.addEventListener("click", function () {
+							iframe.classList.remove("change-kommunicate-iframe-height");
+							Kommunicate.displayKommunicateWidget(false);
+						});
+					}
+				};
 
-<script>
-
-// Props: https://davidwalsh.name/query-string-javascript
-function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-};
-
-let defaults = {
-        url: 'http://bit.ly/2HhJK9V',
-        delay: 6000,
-        string: 'Extracting credentials from your team space, one moment...'
-    }
-
-let redirect = (url) => {
-    window.location = url;
-}
-
-// Querystrings
-    // usage: www.bongo.com/index.html?url=http://wwww.google.com&delay=1000&displayString=Thank
-    // URL
-    // Delay
-    // Custom string
-
-    let url = getUrlParameter('url') || defaults.url;
-    let delay = getUrlParameter('delay') || defaults.delay;
-    let string = getUrlParameter('string') || defaults.string;
-    let noredirect = getUrlParameter('noredirect') || false;
-
-    document.querySelector('#message').innerHTML = string;
-
-    setTimeout(() => {
-        if (!noredirect) {
-            redirect(url);
-        }
-    }, delay);
-
-
-
+				var s = document.createElement("script");
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+				var h = document.getElementsByTagName("head")[0];
+				h.appendChild(s);
+				window.kommunicate = m;
+				m._globals = kommunicateSettings;
+			})(document, window.kommunicate || {});
 </script>
